@@ -60,7 +60,6 @@ def count_elements(words)
     words.each do |x|
       puts x[:name]
       new_array["name"] = {count: count}
-      new_hash[programming_languages[1]] = {type: type[0]}
     end
     print new_array
 end
