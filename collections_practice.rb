@@ -46,7 +46,6 @@ array = ["blake", 1, :hello]
 def remove_non_strings(array)
     array.each do |x|
       if x.is_a? String
-        print "dood"
       else
         array.pop
       end
