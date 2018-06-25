@@ -56,7 +56,7 @@ array = [{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}]
 
 def count_elements(words)
     counts = Hash.new 0
-    counts[:name].store :count, 1
+
     words.each do |word|
       counts[word][:count] += 1
     end
