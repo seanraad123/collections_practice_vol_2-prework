@@ -41,7 +41,6 @@ def first_wa(array)
   return containing_wa[0]
 end
 
-array = ["blake", 1, :hello]
 
 def remove_non_strings(array)
     new_array = []
@@ -53,4 +52,5 @@ def remove_non_strings(array)
   return new_array
 end
 
-remove_non_strings(array)
+def count_elements(array)
+
