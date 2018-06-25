@@ -34,7 +34,8 @@ def first_wa(array)
     print
     if x[0] == 'w'
       if x[1] == 'a'
-      return x
+      print x
+    end
     end
   end
 end
