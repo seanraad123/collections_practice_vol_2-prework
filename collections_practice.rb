@@ -41,4 +41,11 @@ def first_wa(array)
   return containing_wa[0]
 end
 
-first_wa(list)
+array = ["blake", 1, :hello]
+
+def remove_non_strings(array)
+    
+end
+
+remove_non_strings(array)
+
