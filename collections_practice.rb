@@ -16,8 +16,6 @@ def begins_with_r(words)
 end
 
 
-array = ["earth", "fire", "wind", "water", "heart"]
-
 def contain_a(array)
   containing_a = []
   array.each do |x|
@@ -27,5 +25,3 @@ def contain_a(array)
   end
   return containing_a
 end
-
-contain_a(array)
