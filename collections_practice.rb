@@ -19,7 +19,6 @@ end
 def contain_a(array)
   array = []
   array.each do |x|
-    print x
     if x.include? 'a'
       array.push(x)
     end
