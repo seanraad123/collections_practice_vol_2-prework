@@ -1,6 +1,7 @@
 # your code goes here
 def begins_with_r(words)
-  words.each do |x|
+  counter = 0
+  while counter < words.size
      if x[0] == "r"
        true
      else
