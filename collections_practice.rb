@@ -38,7 +38,7 @@ def first_wa(array)
       end
     end
   end
-  return containing_wa[0]
+  puts containing_wa[0]
 end
 
 first_wa(list)
