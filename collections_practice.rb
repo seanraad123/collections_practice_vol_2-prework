@@ -52,8 +52,8 @@ end
 
 array = [{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}]
 
-def count_elements(array)
-    array.each do |x|
+def count_elements(words)
+    words.each do |x|
       print x[0]
     end
 end
