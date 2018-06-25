@@ -48,7 +48,8 @@ def remove_non_strings(array)
       if x.is_a? String
         print "TRUE"
       else
-        array.delete(x)
+          print "FALSE"
+        #array.delete(x)
       end
     end
   print array
