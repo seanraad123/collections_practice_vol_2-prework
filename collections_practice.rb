@@ -1,13 +1,10 @@
 # your code goes here
 def begins_with_r(words)
   counter = 0
+  array = []
   while counter < words.size
-     if x[0] == "r"
-       true
-     else
-       false
-     end
-   end
+     words.each do |x|
+       if
 end
 
 list = ["ruby", "rspec", "sails"]
