@@ -24,4 +24,4 @@ end
 
 array = ["earth", "fire", "wind", "water", "heart"]
 
-contain_a
+contain_a(array)
