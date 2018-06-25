@@ -58,7 +58,6 @@ def count_elements(words)
     count = 1
     new_array = {}
     words.each do |x|
-      puts x[:name]
       new_array[:name] = x[:name]
       new_array[:name] = {count: count}
 
