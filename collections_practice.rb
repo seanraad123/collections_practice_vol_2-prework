@@ -53,7 +53,7 @@ end
 array = [{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}]
 
 def count_elements(words)
-    print words.count { |x| x % 2 == 0 }
+    print words.count{ |x| x % 2 == 0 }
 end
 
 count_elements(array)
