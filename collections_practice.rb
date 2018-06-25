@@ -2,7 +2,7 @@
 def begins_with_r(words)
   words.each do |x|
      if x[0] == "r"
-      true
+       true
      else
        false
      end
