@@ -55,6 +55,7 @@ array = [{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}]
 #expect [{:name => "blake", :count => 2}, {:name => "ashley", :count => 1}]
 
 def count_elements(words)
+    new_array = []
     words.each do |x|
       puts x[:name]
     end
