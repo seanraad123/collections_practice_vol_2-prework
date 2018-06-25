@@ -56,7 +56,7 @@ array = [{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}]
 
 def count_elements(words)
     words.each do |x|
-      print x[:name]
+      puts x[:name]
 end
 
 count_elements(array)
