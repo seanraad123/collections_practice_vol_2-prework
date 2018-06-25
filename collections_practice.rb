@@ -59,7 +59,7 @@ def count_elements(words)
 
     words.each do |word|
       counts[word] = {count: = 1}
-      counts[word][:count] += 1
+      #counts[word][:count] += 1
     end
     puts counts
 end
