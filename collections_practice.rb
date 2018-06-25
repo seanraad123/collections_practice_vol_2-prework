@@ -35,9 +35,10 @@ def first_wa(array)
     if x[0] == 'w'
       if x[1] == 'a'
         containing_wa.push(x)
-    end
+      end
     end
   end
+  return containing_wa[0]
 end
 
 first_wa(list)
