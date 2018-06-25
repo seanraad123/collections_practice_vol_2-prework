@@ -44,11 +44,12 @@ end
 array = ["blake", 1, :hello]
 
 def remove_non_strings(array)
+    new_array = []
     array.each do |x|
       if x.is_a? String
         print "TRUE"
       else
-          print "FALSE"
+        print "FALSE"
         #array.delete(x)
       end
     end
