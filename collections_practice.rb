@@ -61,7 +61,7 @@ def count_elements(words)
       counts[word] = :count, 1
     end
     #counts[:name].store :count,1
-    print counts.flatten(1)
+    print counts
 end
 
 count_elements(array)
