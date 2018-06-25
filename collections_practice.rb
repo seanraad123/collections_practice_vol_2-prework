@@ -49,6 +49,7 @@ def remove_non_strings(array)
         array.pop
       end
     end
+    array
 end
 
 remove_non_strings(array)
