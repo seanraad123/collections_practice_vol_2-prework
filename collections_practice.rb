@@ -47,7 +47,7 @@ def remove_non_strings(array)
     new_array = []
     array.each do |x|
       if x.is_a? String
-        print "TRUE"
+        new_array.push(x)
       else
         print "FALSE"
         #array.delete(x)
