@@ -31,7 +31,6 @@ list = ["candy", :pepper, "wall", :ball, "wacky"]
 def first_wa(array)
   containing_a = []
   array.each do |x|
-    print x
     if x[0] == 'w' && x[1] == 'a'
       return x
     end
