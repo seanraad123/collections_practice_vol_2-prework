@@ -26,8 +26,6 @@ def contain_a(array)
   return containing_a
 end
 
-list = ["candy", "water", "washington", :ball, "warming"]
-
 def first_wa(array)
   containing_wa = []
   array.each do |x|
