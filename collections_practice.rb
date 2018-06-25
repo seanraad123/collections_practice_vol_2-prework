@@ -15,6 +15,13 @@ def begins_with_r(words)
    end
 end
 
-list = ["ruby", "rspec", "sails"]
 
-begins_with_r(list)
+
+
+def contain_a(array)
+
+end
+
+array = ["earth", "fire", "wind", "water", "heart"]
+
+contain_a
