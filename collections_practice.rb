@@ -59,8 +59,9 @@ def count_elements(words)
     new_array = {}
     words.each do |x|
       puts x[:name]
+      new_array[:name] = x[:name]
       new_array[:name] = {count: count}
-      new_array[:name] = "blake"
+
     end
     print new_array
 end
