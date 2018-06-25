@@ -14,6 +14,7 @@ def begins_with_r(words)
      else
        return true
      end
+   end
 end
 
 list = ["ruby", "rspec", "sails"]
