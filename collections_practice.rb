@@ -17,7 +17,10 @@ end
 
 
 def contain_a(array)
+  array = []
   array.each do |x|
+    if x.include? 'a'
+      
     
 end
 
