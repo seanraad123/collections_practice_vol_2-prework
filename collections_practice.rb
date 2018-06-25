@@ -10,7 +10,8 @@ def begins_with_r(words)
    end
    if array.contains? "false"
      return false
-
+   else 
+     return true
 end
 
 list = ["ruby", "rspec", "sails"]
