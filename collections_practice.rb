@@ -27,5 +27,4 @@ def contain_a(array)
   end
   puts array
 end
-puts "hello"
 contain_a(array)
