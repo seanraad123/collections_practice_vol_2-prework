@@ -2,7 +2,12 @@
 def begins_with_r(words)
   array = []
    words.each do |x|
-     if
+     if x[0] == "r"
+       array.push("true")
+     else
+       array.push("false")
+     end
+   end
 end
 
 list = ["ruby", "rspec", "sails"]
