@@ -1,7 +1,10 @@
 # your code goes here
 def begins_with_r(words)
   words.each do |x|
-    print x[0]
+     if x[0] == "r"
+       return true
+     else
+       return false
   end
 end
 
