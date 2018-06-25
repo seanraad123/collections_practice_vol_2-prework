@@ -19,7 +19,7 @@ end
 array = ["earth", "fire", "wind", "water", "heart"]
 
 def contain_a(array)
-  array = []
+  bla = []
   array.each do |x|
     if x.include? 'a'
       array.push(x)
@@ -27,4 +27,5 @@ def contain_a(array)
   end
   puts array
 end
+
 contain_a(array)
