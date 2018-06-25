@@ -26,5 +26,8 @@ def contain_a(array)
   return containing_a
 end
 
+hash = ["candy", :pepper, "wall", :ball, "wacky"]
 
 def first_wa(array)
+
+  
