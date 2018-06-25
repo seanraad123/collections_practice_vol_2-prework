@@ -63,4 +63,4 @@ def count_elements(words)
     return counts
 end
 
-count_elements(array)
+puts count_elements(array)
