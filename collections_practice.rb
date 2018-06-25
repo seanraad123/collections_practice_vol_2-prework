@@ -50,9 +50,11 @@ def remove_non_strings(array)
   return new_array
 end
 
-array = [{:name => "blake", :count => 2}, {:name => "ashley", :count => 1}]
+array = [{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}]
 
 def count_elements(array)
+    array.each do |x|
+      print x[0]
 
 end
 
