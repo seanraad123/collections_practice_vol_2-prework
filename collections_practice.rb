@@ -51,7 +51,7 @@ def remove_non_strings(array)
         array.delete(x)
       end
     end
-    return array
+  return array
 end
 
 remove_non_strings(array)
