@@ -8,14 +8,9 @@ def begins_with_r(words)
        array.push("false")
      end
    end
-   array.each do |x|
-     if x == "false"
-       print  false
-     else
-       print true
-     end
-   end
-   print array
+   if array.contains? "false"
+     return false
+
 end
 
 list = ["ruby", "rspec", "sails"]
