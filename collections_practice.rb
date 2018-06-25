@@ -58,7 +58,7 @@ def count_elements(words)
     counts = Hash.new(0)
 
     words.each do |word|
-      counts[word][:name] += 1
+      counts[word] += 1
     end
 
 end
