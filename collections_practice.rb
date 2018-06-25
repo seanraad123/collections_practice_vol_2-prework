@@ -26,6 +26,6 @@ def contain_a(array)
   return containing_a
 end
 
-array = ["candy", :pepper, "wall", :ball, "wacky"]
+list = ["candy", :pepper, "wall", :ball, "wacky"]
 
 def first_wa(array)
