@@ -51,4 +51,9 @@ def remove_non_strings(array)
 end
 
 array = [{:name => "blake", :count => 2}, {:name => "ashley", :count => 1}]
+
 def count_elements(array)
+
+end
+
+count_elements(array)
