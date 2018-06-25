@@ -16,10 +16,9 @@ def begins_with_r(words)
 end
 
 
-
-
 def contain_a(array)
-
+  array.each do |x|
+    
 end
 
 array = ["earth", "fire", "wind", "water", "heart"]
