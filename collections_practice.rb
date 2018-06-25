@@ -55,9 +55,7 @@ array = [{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}]
 array1 = [{:name => "blake", :count => 2}, {:name => "ashley", :count => 1}]
 
 def count_elements(words)
-    counts = hash.new(0)
-    words.each { |name| counts[name] += 1 }
-    words.merge!(count: 1)
+    counts = Hash.new(0)
     print words
 end
 
