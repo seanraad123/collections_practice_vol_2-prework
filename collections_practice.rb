@@ -8,9 +8,9 @@ def begins_with_r(words)
        array.push("false")
      end
    end
-   if array.contains? "false"
+   if array.include? "false"
      return false
-   else 
+   else
      return true
    end
 end
