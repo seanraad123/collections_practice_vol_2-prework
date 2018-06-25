@@ -61,7 +61,6 @@ def count_elements(words)
       counts[word] += 1
     end
     print counts
-
 end
 
 count_elements(array)
