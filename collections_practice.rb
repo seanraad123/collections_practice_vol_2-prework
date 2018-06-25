@@ -22,10 +22,10 @@ def contain_a(array)
   bla = []
   array.each do |x|
     if x.include? 'a'
-      array.push(x)
+      bla.push(x)
     end
   end
-  puts array
+  puts bla
 end
 
 contain_a(array)
