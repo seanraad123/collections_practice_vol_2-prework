@@ -55,7 +55,7 @@ array = [{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}]
 array1 = [{:name => "blake", :count => 2}, {:name => "ashley", :count => 1}]
 
 def count_elements(words)
-    counts = Hash.new 0
+    counts = Array.new 0
 
     words.each do |word|
       counts[word] = {count: 0}
