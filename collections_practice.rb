@@ -60,7 +60,7 @@ def count_elements(words)
     words.each do |word|
       counts[word] += 1
     end
-    return  counts
+    return counts
 end
 
 count_elements(array)
