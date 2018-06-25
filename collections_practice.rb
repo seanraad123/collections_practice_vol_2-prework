@@ -58,7 +58,8 @@ def count_elements(words)
     new_array = [{}]
     words.each do |x|
       puts x[:name]
-      new_array
+      new_array[x[:name]] = {count: count}
+      new_hash[programming_languages[1]] = {type: type[0]}
     end
 end
 
