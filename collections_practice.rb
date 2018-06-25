@@ -55,14 +55,12 @@ array = [{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}]
 #expect [{:name => "blake", :count => 2}, {:name => "ashley", :count => 1}]
 
 def count_elements(words)
-    count = 1
-    new_array = {}
-    words.each do |x|
-      new_array.push([:name] = x[:name])
-      #new_array[:name] = {count: count}
+    counts = Hash.new 0
 
+    words.each do |word|
+      counts[word] += 1
     end
-    print new_array
-end
+  end
+  print counts
 
 count_elements(array)
