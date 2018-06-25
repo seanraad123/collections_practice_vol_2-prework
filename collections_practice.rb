@@ -1,6 +1,7 @@
 # your code goes here
 def begins_with_r(words)
-  if
+  words.each do |x|
+    print x[0]
 end
 
 list = ["ruby", "rspec", "rails"]
