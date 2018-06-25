@@ -52,7 +52,7 @@ def remove_non_strings(array)
         print "NOT A STRING"
       end
     end
-  print new_array
+  return new_array
 end
 
 remove_non_strings(array)
