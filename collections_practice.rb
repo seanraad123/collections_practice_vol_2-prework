@@ -29,3 +29,7 @@ end
 list = ["candy", :pepper, "wall", :ball, "wacky"]
 
 def first_wa(array)
+
+end
+
+first_wa(list)
