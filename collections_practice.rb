@@ -25,3 +25,6 @@ def contain_a(array)
   end
   return containing_a
 end
+
+
+def first_wa(array)
