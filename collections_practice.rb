@@ -61,6 +61,7 @@ def count_elements(words)
       puts x[:name]
       new_array[x[:name]] = {count: count}
     end
+    print new_array
 end
 
 count_elements(array)
