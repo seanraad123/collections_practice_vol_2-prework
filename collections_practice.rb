@@ -4,3 +4,5 @@ def begins_with_r(*words)
 end
 
 list = ["ruby", "rspec", "rails"]
+
+begins_with_r(list)
