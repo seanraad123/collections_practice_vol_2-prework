@@ -61,7 +61,7 @@ def count_elements(words)
       counts[word] = {count: 0}
       counts[word][:count] += 1
     end
-    puts counts
+    puts [counts]
 end
 
 count_elements(array)
