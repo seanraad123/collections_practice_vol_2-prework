@@ -8,6 +8,11 @@ def begins_with_r(words)
        array.push("false")
      end
    end
+   array.each do |x|
+     if x == "false"
+       return false
+     else
+       return true
 end
 
 list = ["ruby", "rspec", "sails"]
