@@ -49,6 +49,7 @@ def remove_non_strings(array)
         print "TRUE"
       else
         print "FALSE"
+      end
     end
     print array
 end
