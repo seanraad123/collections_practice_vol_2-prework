@@ -59,8 +59,7 @@ def count_elements(words)
     words.each do |word|
       counts[word] = :count, 1
     end
-    counts[:name].store :count,1]
-    print [counts]
+    counts[:name].store :count,1
 end
 
 count_elements(array)
