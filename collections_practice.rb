@@ -29,12 +29,12 @@ end
 list = ["candy", :pepper, "wall", :ball, "wacky"]
 
 def first_wa(array)
-  containing_a = []
+  containing_wa = []
   array.each do |x|
     print
     if x[0] == 'w'
       if x[1] == 'a'
-      print x
+        containing_wa.push(x)
     end
     end
   end
