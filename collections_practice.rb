@@ -19,13 +19,13 @@ end
 array = ["earth", "fire", "wind", "water", "heart"]
 
 def contain_a(array)
-  bla = []
+  containing_a = []
   array.each do |x|
     if x.include? 'a'
-      bla.push(x)
+      containing_a.push(x)
     end
   end
-  puts bla
+  return containing_a
 end
 
 contain_a(array)
