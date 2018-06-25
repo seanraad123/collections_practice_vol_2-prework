@@ -10,9 +10,9 @@ def begins_with_r(words)
    end
    array.each do |x|
      if x == "false"
-       return false
+       print  false
      else
-       return true
+       print true
      end
    end
    print array
