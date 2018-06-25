@@ -22,6 +22,7 @@ def contain_a(array)
     if x.include? 'a'
       array.push(x)
     end
+  puts array
 end
 
 array = ["earth", "fire", "wind", "water", "heart"]
